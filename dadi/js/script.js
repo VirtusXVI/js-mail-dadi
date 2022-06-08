@@ -5,9 +5,11 @@ let ouput = "";
 // controllo se ha vinto il computer o l'utente
 if(userNumber > computerNumber){
     output = `il giocatore ha vinto!`;
-}else{
+}else if(computerNumber > userNumber){
     output = `il computer ha vinto!`;
-};
+}else{
+    output = `pareggio!`
+}
 // output
 console.log(output);
 alert(output);

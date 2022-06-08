@@ -1,4 +1,3 @@
-
 // email che hanno il permesso di accesso
 let emails = [ "ciao1@ciao.it" , "ciao2@ciao.it" , "ciao3@ciao.it"];
 let button = document.querySelector("button");
