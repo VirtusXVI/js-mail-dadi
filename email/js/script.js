@@ -18,7 +18,6 @@ button.addEventListener( "click" , function(){
             // output negativo
             finalOutput = `<h1 class="">email non presente</h1>`
             console.log(output);
-            break;
         }
     }
     document.getElementById("output").innerHTML = finalOutput
